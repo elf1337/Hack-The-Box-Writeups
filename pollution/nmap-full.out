@@ -1,0 +1,15 @@
+# Nmap 7.80 scan initiated Tue Dec  6 12:34:08 2022 as: nmap -p- -v --min-rate 10000 -o nmap-full.out 10.129.82.113
+Increasing send delay for 10.129.82.113 from 0 to 5 due to 55 out of 181 dropped probes since last increase.
+Increasing send delay for 10.129.82.113 from 5 to 10 due to 163 out of 541 dropped probes since last increase.
+Increasing send delay for 10.129.82.113 from 640 to 1000 due to 322 out of 1072 dropped probes since last increase.
+Warning: 10.129.82.113 giving up on port because retransmission cap hit (10).
+Nmap scan report for collect.htb (10.129.82.113)
+Host is up (0.49s latency).
+Not shown: 65468 closed ports, 64 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+6379/tcp open  redis
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec  6 12:34:54 2022 -- 1 IP address (1 host up) scanned in 46.41 seconds
